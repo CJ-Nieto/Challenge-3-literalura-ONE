@@ -45,30 +45,26 @@ El proyecto está organizado en los siguientes paquetes:
 Sigue estos pasos para configurar el proyecto en tu entorno local:
 
 1. **Clona el repositorio:**
-
-   ```bash
-   git clone https://github.com/tu_usuario/03_Literatura.git
-   cd 03_Literatura
-   ```
-
+	```
+	git clone https://github.com/tu_usuario/03_Literatura.git
+	cd 03_Literatura
+	```
+ 
 2. **Configura las credenciales de la base de datos:**
-
 Abre el archivo application.properties y reemplaza `tu_usuario` y `tu_contraseña` con tus credenciales de PostgreSQL.
-
-	```bash
+	```
 	spring.datasource.username=tu_usuario
 	spring.datasource.password=tu_contraseña
 	```
+ 
 3. **Compila el proyecto:**
-
 Asegúrate de tener Maven instalado y ejecuta:
-
-	```bash
+	```
 	mvn clean install
 	```
+ 
 4. **Ejecuta la aplicación:**
-
-	```bash
+	```
 	mvn spring-boot:run
 	```
 
@@ -86,7 +82,10 @@ Una vez que la aplicación esté corriendo, verás un menú en la consola con la
 8. Buscar autor por nombre
 9. Salir
 
-Ingresa el número correspondiente a la opción que deseas ejecutar.
+Ingresa el número correspondiente a la opción que deseas ejecutar. Conforme avances las opciones se podrán mostrar de la siguiente forma:
+<p align="center">
+  	<img width="auto" height="auto" src="img/book_menu.png">
+</p>
 
 ## Contribuciones
 
@@ -94,4 +93,4 @@ Las contribuciones son bienvenidas. Si tienes ideas para mejorar el proyecto, po
 
 ## Licencia
 
-Este proyecto está licenciado bajo la [MIT License](LICENSE).
+Este proyecto está licenciado bajo la [MIT License](LICENSE.md).
