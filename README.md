@@ -44,6 +44,11 @@ El proyecto está organizado en los siguientes paquetes:
 - **`.dto`**: Contiene las clases `DataBook`, `DataAuthor`, y `Data` para representar los datos obtenidos de la API externa.
 - **`.converter`**: Contiene la interfaz `IConverter` y la clase `Converter` para convertir datos JSON a objetos Java.
 
+El modelo de base de datos se observa de la siguiente manera:
+<p align="center">
+  	<img width="auto" height="auto" src="img/model_bd.png">
+</p>
+
 ## Instalación
 
 Sigue estos pasos para configurar el proyecto en tu entorno local:
