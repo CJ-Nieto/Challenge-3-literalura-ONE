@@ -1,3 +1,7 @@
+<p align="center">
+  	<img width="auto" height="auto" src="img/Badge_LiterAlura_ONE.png">
+</p>
+
 # Catálogo de Libros - Oracle y Alura Challenge
 
 Este es un proyecto desarrollado con Spring Boot para el Challenge LiterAlura de Alura para Oracle Next Generation (ONE).
@@ -83,6 +87,12 @@ Una vez que la aplicación esté corriendo, verás un menú en la consola con la
 9. Salir
 
 Ingresa el número correspondiente a la opción que deseas ejecutar. Conforme avances las opciones se podrán mostrar de la siguiente forma:
+<p align="center">
+  	<img width="auto" height="auto" src="img/list_book.png">
+</p>
+<p align="center">
+  	<img width="auto" height="auto" src="img/list_language.png">
+</p>
 <p align="center">
   	<img width="auto" height="auto" src="img/book_menu.png">
 </p>
